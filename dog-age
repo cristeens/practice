@@ -1,0 +1,40 @@
+# copy paste into https://code.sololearn.com/#py
+
+age = 2020 - int(input("Year of Birth: "))
+print(age + "\n")
+size = input("Dog Size: " + "\n")
+print(size + "\n")
+print("Your dog's age in human years is ")
+if age == 1:
+    print("15")
+elif age == 2:
+    print("24")
+elif age == 3:
+    if size == "small":
+        print("28")
+    if size == "medium":
+        print("29")
+    if size == "large":
+        print("30")
+elif age == 4:
+    if size == "small":
+        print("32")
+    if size == "medium":
+        print("33")
+    if size == "large":
+        print("35")
+elif age == 5:
+    if size == "small":
+        print("36")
+    if size == "medium":
+        print("38")
+    if size == "large":
+        print("41")
+elif age == 6:
+    if size == "small":
+        print("40")
+    if size == "medium":
+        print("42")
+    if size == "large":
+        print("46")
+print("!")
