@@ -1,10 +1,11 @@
 # copy paste into https://code.sololearn.com/#py
 
-age = 2020 - int(input("Year of Birth: "))
+YOB = int(input("Year of Birth: "))
+age = 2020 - YOB
 print(age + "\n")
-size = input("Dog Size: " + "\n")
+size = input("Dog Size: ")
 print(size + "\n")
-print("Your dog's age in human years is ")
+print("Your dog's age in human years is:" + "\n" + "(choose from small, medium or large)")
 if age == 1:
     print("15")
 elif age == 2:
